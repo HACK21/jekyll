@@ -4,6 +4,9 @@ title: 『2014年1月29日 星期三 廊坊 霾』总结后的题外话
 category: dairy
 tags: 日记
 ---
+<script type="text/javascript" src="http://www.xiami.com/widget/player-single?uid=0&sid=1771638197&mode=js"></script>
+
+
 ### **开题**
 
 今天终于把总结给写了，虽然比平常整整晚了一个月，但是总算是在新年前把它完成了。今天打算再补一篇日记给我的2013。
