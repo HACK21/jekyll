@@ -1,6 +1,5 @@
-name: Your New Jekyll Site
+name: 路漫漫其修远兮，吾将上下而求索 
 baseurl: /jekyll
-#markdown: redcarpet
 markdown: kramdown
 pygments: true
 permalink: /:year/:month/:day/:title.html
