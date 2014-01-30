@@ -4,7 +4,8 @@ title: 『2014年1月29日 星期三 廊坊 霾』总结后的题外话
 category: dairy
 tags: 日记
 ---
-<script type="text/javascript" src="http://www.xiami.com/widget/player-single?uid=0&sid=1771638197&mode=js"></script>
+<!--script type="text/javascript" src="http://www.xiami.com/widget/player-single?uid=0&sid=1771638197&mode=js"></script-->
+<embed src="http://www.xiami.com/widget/165819_1771638197/singlePlayer.swf" type="application/x-shockwave-flash" width="257" height="33" wmode="transparent">
 
 
 ### **开题**
