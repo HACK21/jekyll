@@ -15,18 +15,23 @@
     </head>
     <body>
       <div class="row">
-        <div class="col-md-3 col-xs-1 col-sm-1" ></div>
-        <div class="col-md-6 col-xs-10 col-sm-10">
-                  <div class="site">
+        <div class="col-md-3 col-sm-1" ></div>
+        <div class="col-md-6 col-xs-12 col-sm-10">
+              <div class="site">
                 <div class="header">
-                  <h1 class="title"><a href="{{ site.baseurl }}">{{ site.name }}</a></h1>
-                  <a class="extra" href="{{ site.baseurl }}">首页</a>
-                  <a class="extra" href="{{ site.baseurl }}">博客</a>
-                  <a class="extra" href="{{ site.baseurl }}">日记</a>
-                  <a class="extra" href="{{ site.baseurl }}">关于</a>
+                  <div class="title"><a href="{{ site.baseurl }}">{{ site.name }}</a></div>
+                  <div class="links">
+                    <a class="extra" href="{{ site.baseurl }}">首页</a>
+                    <a class="extra" href="{{ site.baseurl }}">博客</a>
+                    <a class="extra" href="{{ site.baseurl }}">日记</a>
+                    <a class="extra" href="{{ site.baseurl }}">关于</a>
+                  </div>
                 </div>
 
-                {{ content }}
+                <div id="content">
+                  {{ content }}
+                </div>
+                
 
                 <div class="footer">
                   <div class="contact">
@@ -44,7 +49,7 @@
                 </div>
               </div>
         </div>
-        <div class="col-md-3 col-xs-1 col-sm-1"></div>
+        <div class="col-md-3 col-sm-12"></div>
       </div>
     </body>
 </html>
