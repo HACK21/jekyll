@@ -76,19 +76,21 @@ a:visited { color: #a0a; }
   text-decoration: none;
 }
 .header>.links{
-  float:left;
+  /* float:left; */
+  text-align: center;
 }
 
 .header>.title {
   /*display: inline-block;*/
   /* margin-bottom: 2em; */
   /*text-overflow: ellipsis;*/
-  width: 16em;
+  /* width: 16em; */
   white-space: nowrap;
   /*overflow: hidden;*/
   padding:0;
   /* -webkit-box-flex: 1; */
-  float: left;
+  /* float: left; */
+  text-align: center;
 }
 
 .title a {
@@ -97,6 +99,10 @@ a:visited { color: #a0a; }
 
 .title a:hover {
   color: #000;
+}
+
+.header>.links>a:first-child{
+  margin-left: 1em;
 }
 
 .header a.extra {
