@@ -13,7 +13,7 @@ tags: 日记
 6. 大年三十陪家人啦。
 
 - - -
-<embed src="http://www.xiami.com/widget/165819_188998/singlePlayer.swf" type="application/x-shockwave-flash" width="257" height="33" wmode="transparent"></embed>
+<embed src="http://www.xiami.com/widget/165819_188998/singlePlayer.swf" type="application/x-shockwave-flash" width="257" height="33" wmode="transparent">
 
 ### **神奇**
 刚刚搭好这个以后长期记录的地方，是要装饰装饰的，我的目标不高，就是想让它能够尽量的简洁让我顺眼，在手机上和平板上都能良好的显示即可。又搬上来Bootstrap，貌似有点大材小用，但是实在懒的自己去编CSS了...就算这样也要调整半天，我想用最少的时间达到最大的效果，可惜还是三十还是木有弄完。 = =！
