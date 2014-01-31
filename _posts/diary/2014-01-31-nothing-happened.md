@@ -12,7 +12,7 @@ tags: 日记
 5. 补30的日志，和今天的日志。（10:00-12:00）[2小时]
 
 - - -
-<embed src="http://www.xiami.com/widget/165819_119077/singlePlayer.swf" type="application/x-shockwave-flash" width="257" height="33" wmode="transparent"></embed>
+<embed src="http://www.xiami.com/widget/165819_119077/singlePlayer.swf" type="application/x-shockwave-flash" width="257" height="33" wmode="transparent">
 
 ### **再把日记养成习惯**
 自从般年前加班开始就把习惯扔掉，慢慢习惯了不写记录的习惯，后来某一天发现我想去追忆一下我某天做了什么之类的事情竟然毫无头绪，自己本就是个健忘的人，再不用笔记记录好像这么长时间什么印记都没留下，忽然就觉得时间过得好快。要命。
