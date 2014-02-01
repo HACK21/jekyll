@@ -69,6 +69,14 @@ a:visited { color: #a0a; }
 
 .header{
   overflow: auto;
+  text-align: center;
+}
+
+.header>img{
+  /*width: 150px;*/
+/*height: 150px;*/
+/*border-radius: 50%;*/
+/*border: 3px solid #ddd;*/
 }
 
 .header a {
@@ -77,7 +85,7 @@ a:visited { color: #a0a; }
 }
 .header>.links{
   /* float:left; */
-  text-align: center;
+  /*text-align: center;*/
 }
 
 .header>.title {
@@ -90,7 +98,8 @@ a:visited { color: #a0a; }
   padding:0;
   /* -webkit-box-flex: 1; */
   /* float: left; */
-  text-align: center;
+  /*text-align: center;*/
+  margin-top: 20px;
 }
 
 .title a {
