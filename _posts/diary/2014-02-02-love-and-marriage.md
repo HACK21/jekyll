@@ -9,7 +9,7 @@ tags: 日记
 2. 顺义-天津宝坻，看望外婆。（14:30-22:30）[8小时]
 
 - - -
-<embed src="http://www.xiami.com/widget/165819_7310/singlePlayer.swf" type="application/x-shockwave-flash" width="257" height="33" wmode="transparent"></embed>
+<embed src="http://www.xiami.com/widget/165819_7310/singlePlayer.swf" type="application/x-shockwave-flash" width="257" height="33" wmode="transparent">
 
 ### **爱情&婚姻**
 过年总是很忙的，但也难免可以高效的串门，比如今天的行程，连去两个地方，一天把两天的事情办完。虽然回来的很晚，很累，但是省出一天清闲的时间感觉很爽。
