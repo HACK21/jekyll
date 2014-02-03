@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 『2014年2月2日 星期天 京津廊 雾晴』爱情&婚姻 の 初三
-category: dairy
+category: diary
 tags: 日记
 ---
 ### **轨迹**

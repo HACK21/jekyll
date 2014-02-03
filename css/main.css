@@ -102,6 +102,10 @@ a:visited { color: #a0a; }
   margin-top: 20px;
 }
 
+.post img{
+  width:100%;
+}
+
 .title a {
   color: #a00;
 }
@@ -125,6 +129,15 @@ a:visited { color: #a0a; }
 
 #content{
   clear: both;
+}
+
+#content h1{
+  font-weight: bold;
+  color: blue;
+}
+
+#content p{
+  text-indent: 2em;
 }
 
 .meta {

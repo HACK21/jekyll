@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 『2014年1月29日 星期三 廊坊 霾』总结后的题外话
-category: dairy
+category: diary
 tags: 日记
 ---
 <!--script type="text/javascript" src="http://www.xiami.com/widget/player-single?uid=0&sid=1771638197&mode=js"></script-->

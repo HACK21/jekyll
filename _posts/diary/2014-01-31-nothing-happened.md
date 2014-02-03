@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 『2014年1月31日 星期五 廊坊 阴霾』初一
-category: dairy
+category: diary
 tags: 日记
 ---
 ### **轨迹**
