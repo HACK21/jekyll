@@ -3,10 +3,14 @@ layout: default
 title: 路漫漫其修遠兮，吾將上下而求索
 ---
 
+
+<h1>日程安排</h1>
+<iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=jackiechan996%40gmail.com&amp;color=%238C500B&amp;src=rqq7a0ol115tpcdv73e6v91pi0%40group.calendar.google.com&amp;color=%23711616&amp;ctz=Asia%2FShanghai" style=" border:solid 1px #777; width:100%; max-width:450px; height:250px;" frameborder="0" scrolling="no"></iframe>
+
 <div id="home">
   <h1>日誌列表</h1>
   <ul class="posts">
-    {% for post in site.posts %}
+    {% for post in site.categories.diary %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
