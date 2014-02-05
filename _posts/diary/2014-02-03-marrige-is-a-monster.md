@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 『2014年2月3日 星期一 廊坊 晴』婚姻是个怪物 の 初四
-category: dairy
+category: diary
 tags: 日记
 ---
 ### **轨迹**
