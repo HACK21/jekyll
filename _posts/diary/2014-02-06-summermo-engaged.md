@@ -11,7 +11,7 @@ tags: 日记
 4. 继续改简历，研究工作的东西，选出很多标的。（14:00-晚上）
 
 - - -
-<embed src="http://player.yinyuetai.com/video/player/344311/v_0.swf" quality="high" width="100%" align="middle"  allowScriptAccess="sameDomain" allowfullscreen="true" type="application/x-shockwave-flash">
+<embed src="http://player.yinyuetai.com/video/player/344311/v_0.swf" quality="high" width="480" height="334" align="middle"  allowScriptAccess="sameDomain" allowfullscreen="true" type="application/x-shockwave-flash">
 
 >你还是要幸福  
 >你千万不要再招惹别人哭  
