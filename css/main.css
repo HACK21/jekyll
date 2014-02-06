@@ -106,6 +106,10 @@ a:visited { color: #a0a; }
   width:100%;
 }
 
+.post>p{
+  text-indent: 2em;
+}
+
 .title a {
   color: #a00;
 }
@@ -134,10 +138,6 @@ a:visited { color: #a0a; }
 #content h1{
   font-weight: bold;
   color: blue;
-}
-
-#content p{
-  text-indent: 2em;
 }
 
 .meta {

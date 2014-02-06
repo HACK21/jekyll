@@ -19,6 +19,8 @@ published: true
 ### **其他**
 - [中国版Start News](http://news.dbanotes.net/)
 偏技术。
+- [以前收藏的东西](http://tieba.baidu.com/p/626566079)
+以后总结到这里
 
 ---
 你好，有任何推荐请在下方留言~
