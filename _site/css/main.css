@@ -102,13 +102,7 @@ a:visited { color: #a0a; }
   margin-top: 20px;
 }
 
-.post img{
-  width:100%;
-}
 
-.post>p{
-  text-indent: 2em;
-}
 
 .title a {
   color: #a00;
@@ -117,6 +111,7 @@ a:visited { color: #a0a; }
 .title a:hover {
   color: #000;
 }
+
 
 .header>.links>a:first-child{
   margin-left: 1em;
@@ -138,6 +133,10 @@ a:visited { color: #a0a; }
 #content h1{
   font-weight: bold;
   color: blue;
+}
+
+#content p>img{
+  float: left;
 }
 
 .meta {
@@ -207,4 +206,39 @@ a:visited { color: #a0a; }
 
 .post pre.terminal code {
   background-color: #333;
+}
+
+.post img{
+  width:100%;
+}
+
+.post>p{
+  text-indent: 2em;
+}
+
+.post>p.sub-title{
+  color: darkcyan;
+  text-indent: 0;
+  font-size: 100%;
+}
+
+.post p.note{
+  color: crimson;
+  border: 1px solid #ddd;
+  padding: 0.2em;
+  font-size: 90%;
+  background-color: cornsilk;
+  border-radius: 5px;  
+}
+
+.post-title{
+  font-weight: bold;
+  font-size: 103%;
+}
+
+.read-post blockquote>p{
+  text-indent: 2em;
+}
+blockquote>p.sub-title{
+  text-indent: 0;
 }
