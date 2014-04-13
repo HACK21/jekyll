@@ -24,6 +24,10 @@ P2P借贷
 - [爱投资](http://www.itouzi.com/)
 C2B借贷
 
+### **设计**
+- [淘宝矢量图标库](http://www.iconfont.cn/)
+具体参见：http://www.css88.com/archives/4569
+
 ### **其他**
 - [中国版Start News](http://news.dbanotes.net/)
 偏技术。
