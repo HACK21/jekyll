@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>《计算机网络技术》笔记</title>
+        <meta name="viewport" content="width=device-width">
+
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="/css/syntax.css">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/css/bootstrap.css">
+    </head>
+    <body>
+      <div class="row">
+        <div class="col-md-3 col-sm-1" ></div>
+        <div class="col-md-6 col-xs-12 col-sm-10">
+              <div class="site">
+                <div class="header">
+                  <img src="/img/21.jpg" style="width:150px;height:150px;">
+                  <div class="title"><a href="/">路漫漫其修远兮，吾将上下而求索</a></div>
+                  <div class="links">
+                    <a class="extra" href="/">首页</a>
+                    <a class="extra" href="/blog.html">博客</a>
+                    <a class="extra" href="/diary.html">日记</a>
+                    <!-- <a class="extra" href="/diary.html">读书</a> -->
+                    <a class="extra" href="/collection.html">收藏</a>
+                    <a class="extra" href="/about.html">关于</a>
+                  </div>
+                </div>
+
+                <div id="content">
+                  <h2 class="post-title">《计算机网络技术》笔记</h2>
+<p class="meta">09 Feb 2014</p>
+
+<div class="post read-post">
+<p class="sub-title"><strong>1.7 计算机网络体系结构</strong></p>
+
+<p><img src="http://a.hiphotos.bdimg.com/album/s%3D550%3Bq%3D90%3Bc%3Dxiangce%2C100%2C100/sign=85ddb63cf1deb48fff69a1dbc0244b14/ae51f3deb48f8c54ecc9e97238292df5e0fe7f50.jpg?referer=5d388ca7d3c8a786e73d7f3eb94e&amp;x=.jpg" alt="" />
+（综合OSI和TCP/IP的优点，学习的时候通常采用五层协议结构体系）</p>
+
+<blockquote>
+  <p class="sub-title"><strong><em>1. 应用层</em></strong></p>
+  <p>直接为用户的应用进程提供服务。
+如 <em><abbr title="超文本传输协议">HTTP</abbr></em>协议 ，<em><abbr title="超文本传输协议">SMTP</abbr></em>协议（邮件）, <em><abbr title="超文本传输协议">FTP</abbr></em>协议（文件传送）。	</p>
+
+</blockquote>
+
+<blockquote>
+  <p class="sub-title"><strong><em>2. 运输层</em></strong>  </p>
+  <p>负责向两个主机中进程之间的通信提供服务。
+运输层主要使用两种协议（查了一下，基本上就这两种了，其他听都没听过）：  </p>
+
+  <blockquote>
+    <p class="sub-title"><strong>传输控制协议 TCP</strong></p>
+    <p>面向连接的，数据传输的单位是<code>报文段</code>，能够提供“可靠的交付”。</p>
+
+    <p class="note">这时仅仅是报文分段，并未封装成“包/数据报”状态；TCP以包为单位发送，根据每个包返回的状态信息即可保证可靠交付。</p>
+  </blockquote>
+
+  <blockquote>
+    <p class="sub-title"><strong>用户数据报协议 UDP</strong></p>
+    <p>无连接的，数据传送的单位是<code>用户数据报</code>，只能够提供“尽最大努力交付”。</p>
+
+    <p class="note">以数据报传输，不用分段？难道是以二进制流的形式传输么？</p>
+  </blockquote>
+
+</blockquote>
+
+<blockquote>
+  <p class="sub-title"><strong><em>3. 网络层</em></strong>  </p>
+  <p>负责<code>分组/包/数据报</code>在不同主机上传输信息。发送数据时，网络层把运输层报文段或用户数据报封装成包进行传送。</p>
+
+  <pre><code>注：国外文献中，packet往往是作为任何一层传送的数据单元解释。
+</code></pre>
+
+</blockquote>
+
+<blockquote>
+  <p class="sub-title"><strong><em>4. 数据链路层（链路层）</em></strong>  </p>
+  <p>在这里，链路层会把网络层交下来的IP数据报组装成<code>帧（framing）</code>，每一帧包括数据和必要的控制信息（<code>同步信息</code>，<code>地址信息</code>，<code>差错控制</code>）。  </p>
+
+  <p>控制信息使接收端能够知道一个帧从哪个比特开始和到哪个比特结束，同时控制信息可以检查帧是否有差错，如果有差错立即丢弃，如果需要改正错误就由运输层的<code>TCP协议</code>来完成。</p>
+
+</blockquote>
+
+<p><img src="http://b.hiphotos.bdimg.com/album/s%3D550%3Bq%3D90%3Bc%3Dxiangce%2C100%2C100/sign=c49091b783cb39dbc5c06753e02d7819/50da81cb39dbb6fd4b32107b0b24ab18972b3705.jpg?referer=9b720f911c178a82972b4a90711c&amp;x=.jpg" alt="数据在各个层之间的传递过程" /></p>
+
+<blockquote>
+  <p class="sub-title"><strong><em>5. 物理层</em></strong></p>
+  <p>物理层传输数据的单位是<code>比特</code>，通过电压代表“1”和“0”发送比特流数据。</p>
+</blockquote>
+
+
+</div>
+
+<!-- Duoshuo Comment BEGIN -->
+	<div class="ds-thread"></div>
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"hellohack"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = 'http://static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		|| document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+<!-- Duoshuo Comment END -->
+
+                </div>
+                
+
+                <div class="footer">
+                  <div class="contact">
+                    <p>
+                      HACK21<br />
+                      CONTACT<br />
+                    </p>
+                  </div>
+                  <div class="contact">
+                    <p>
+                      <a href="https://github.com/yourusername"></a><br />
+          jackiechan996 at gmail.com<br />
+                    </p>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-3 col-sm-12"></div>
+      </div>
+    </body>
+</html>
