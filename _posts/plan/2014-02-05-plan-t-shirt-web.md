@@ -29,3 +29,15 @@ Minted 是全球第一个众包性质的独立设计社区和交易平台，它�
 - [**图像插件**](http://www.css88.com/archives/4566)
 
 用户上传的图案进行裁剪的插件。
+
+- [**ComanJs**](http://camanjs.com/)
+
+开源，图片处理的js
+
+- [**Fabric.js**](http://fabricjs.com/)
+
+开源，最接近网站需要的图片编辑效果
+
+- [**Pixasti**](http://www.pixastic.com/lib/)
+
+开源，图片处理的js
